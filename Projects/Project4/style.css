@@ -1,0 +1,136 @@
+body {
+  background: radial-gradient(600px at 50% 50% , #fff 20%, #000 100%);
+}
+h1 {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 80px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: rgb(242, 234, 10);
+  text-shadow: 
+    -1px -1px 0 rgb(178, 34, 144),
+    -2px -2px 0 rgb(178, 34, 144),
+    -3px -3px 0 rgb(178, 34, 144),
+    -4px -4px 0 rgb(178, 34, 144),
+    -5px -5px 0 rgb(178, 34, 144),
+    -6px -6px 0 rgb(178, 34, 144),
+    -7px -7px 0 rgb(178, 34, 144),
+    -8px -8px 0 rgb(178, 34, 144),
+    -30px 20px 40px dimgrey
+}
+
+#first {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+
+
+
+
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: rgb(228, 215, 222);
+    border: 1px solid rgb(198, 17, 147);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0.1rem 0.1rem 0.4rem rgb(210, 25, 25);
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+
+    
+  }
+
+  
+
+  button {
+    width: 70px;
+  }
+
+  #enter {
+    padding: 4px 2px;
+    border-radius: 2px;
+    width: 85px;
+  }
+  
+  .userInput {
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+  }
+  
+  input {
+    margin-right: 4rem;
+    
+    
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(242, 234, 10);
+    justify-content: space-between;
+    padding: 5px;
+   
+    
+  
+   
+    
+  }
+  
+  .done {
+    text-decoration: line-through;
+  }
+  
+  ul {
+    display: block;
+    font-size: 15px;
+    background: #cce5ff;
+    color: rgb(6, 6, 6);
+    margin: 5px;
+    background: #e90aad;
+    font-family: 'Oswald', Helvetica, sans-serif;
+ 
+   
+    
+  }
+  
+  .delClass {
+    display: auto;
+    color: rgb(37, 13, 193);
+    border-radius: 12px;
+    border: 2px solid #e90aad;
+    transition-duration: 0.4s;
+    width: 70px;
+   
+    
+  }
+
+ 
+
+  
+
+  .delClass:hover {
+    background-color: #a6b5bf; /* Green */
+    color: white;
+  }
+
+  .delClass:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  
+  
+ 
